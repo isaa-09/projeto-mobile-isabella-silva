@@ -23,7 +23,7 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Saldo</ThemedText>
         <ThemedText>
-          99.900.00 <ThemedText type="defaultSemiBold"></ThemedText>  
+          99.999.00 <ThemedText type="defaultSemiBold"></ThemedText>  
         {' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
@@ -41,7 +41,7 @@ export default function HomeScreen() {
             borderRadius: 30,
             alignItems: 'center',
             justifyContent: 'center',
-            width: 38,
+            width: 50,
             transform: pressed ? [{ scale: 0.95 }] : [{ scale: 1 }], // Efeito de "afundar"
           })}
         >
@@ -52,12 +52,12 @@ export default function HomeScreen() {
         <ThemedText type="subtitle">cartão de crédito</ThemedText> 
         <ThemedText>
           
-        9000</ThemedText>
+        10.000.00</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">fatura atual</ThemedText>
         <ThemedText>
-          3000{' '}
+          3.000.00{' '}
           <ThemedText type="defaultSemiBold"></ThemedText> {' '}
           <ThemedText type="defaultSemiBold"></ThemedText> {' '}
           <ThemedText type="defaultSemiBold"></ThemedText> {' '}

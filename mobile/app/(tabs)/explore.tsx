@@ -41,15 +41,16 @@ export default function TabTwoScreen() {
           <ThemedText type="defaultSemiBold"></ThemedText> 
         </ThemedText>
       </Collapsible>
-      <Collapsible title="Gabriela lorena"><ThemedText>
+      <Collapsible title="Gabriela"><ThemedText>
         41-998765545 <ThemedText type="defaultSemiBold"></ThemedText> {' '}
-          <ThemedText type="defaultSemiBold"></ThemedText></ThemedText><Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
+          <ThemedText type="defaultSemiBold"></ThemedText></ThemedText>
+          
         <ExternalLink href="https://reactnative.dev/docs/images">
           <ThemedText type="link"></ThemedText>
         </ExternalLink></Collapsible>
-      <Collapsible title="Rafaela rodrigues">
+      <Collapsible title="Rafaela">
         <ThemedText>
- <ThemedText type="defaultSemiBold">41-997030068</ThemedText> {' '}
+ <ThemedText type="defaultSemiBold">41-997030268</ThemedText> {' '}
           <ThemedText style={{ fontFamily: 'SpaceMono' }}>
             
           </ThemedText>
@@ -68,7 +69,7 @@ export default function TabTwoScreen() {
           <ThemedText type="link"></ThemedText>
         </ExternalLink>
       </Collapsible>
-      <Collapsible title="Bianca helena">
+      <Collapsible title="Bianca">
         <ThemedText>
           41-987675546{' '}
           <ThemedText type="defaultSemiBold"></ThemedText> 
